@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                     bottom.setText(R.string.T3_Ans2);
                     mIndex=mIndex+1;
                 }
-                else if(mIndex==2)
+                else if(mIndex==2||mIndex==10)
                 {
                     story.setText(R.string.T6_End);
                     top.setVisibility(View.GONE);
@@ -52,12 +52,6 @@ public class MainActivity extends AppCompatActivity {
                     top.setText(R.string.T3_Ans1);
                     bottom.setText(R.string.T3_Ans2);
                     mIndex=mIndex+4;
-                }
-                else if(mIndex==10)
-                {
-                    story.setText(R.string.T6_End);
-                    top.setVisibility(View.GONE);
-                    bottom.setVisibility(View.GONE);
                 }
 
 
